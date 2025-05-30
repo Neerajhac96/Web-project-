@@ -31,6 +31,10 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+nav ul li ul li {
+    display: block;
+    margin: 0;
+    }
 
 nav ul li a:hover {
     color: rgb(130, 161, 240);

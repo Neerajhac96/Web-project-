@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/free-vector/flat-design-monsoon-season-clouds-illustration_23-2149424294.jpg?semt=ais_items_boosted&w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    text-align: center;
+}
+
+.weather-container {
+    color: #564b4b;
+    margin-bottom: 2rem;
+}
+
+.temp {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.time-location {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+}
+
+.condition {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+nav {
+    margin-top: 2rem;
+}
+
+.search_area {
+    padding: 0.8rem 1rem;
+    width: 70%;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #333;
+    transition: 0.3s;
+}
+
+.search_area::placeholder {
+    color: #666;
+}
+
+.search_area:focus {
+    background-color: white;
+    border: 2px solid #333;
+}
+
+nav form button {
+    padding: 0.8rem 1.2rem;
+    background-color: #ffffff;
+    border: none;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+nav form button:hover {
+    background-color: #f1f1f1;
+    transform: scale(1.05);
+}
+.weather-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.weather-icon img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    transition: transform 0.4s ease;
+}
+
+.weather-icon img:hover {
+    transform: scale(1.1);
+}
+
